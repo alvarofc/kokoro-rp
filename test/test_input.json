@@ -1,0 +1,10 @@
+{
+    "input": {
+        "model": "kokoro",
+        "input": "Hello! This is a test of the text to speech system.",
+        "voice": "af",
+        "response_format": "mp3",
+        "speed": 1.0,
+        "stream": true
+    }
+} 
