@@ -2,14 +2,14 @@
 # Core dependencies
 fastapi==0.115.6
 uvicorn==0.34.0
-pydantic==2.6.1
+pydantic==2.10.4
 pydantic-settings==2.7.0
 python-dotenv==1.0.1
 sqlalchemy==2.0.27
 
 # ML/DL
 transformers==4.47.1
-numpy==1.24.3
+numpy==2.2.1
 scipy==1.14.1
 onnxruntime==1.20.1
 
@@ -26,14 +26,9 @@ tqdm==4.67.1
 requests==2.32.3
 munch==4.0.0
 tiktoken===0.8.0
-loguru==0.7.2
+loguru==0.7.3
 
 # Testing
 pytest==8.0.0
 httpx==0.26.0
 pytest-asyncio==0.23.5
-
-# Add other dependencies from your original project
-runpod==1.5.0
-torch==2.1.0
-torchaudio==2.1.0

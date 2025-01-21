@@ -16,7 +16,7 @@ RUN pip3 install --no-cache-dir torch==2.5.1 --extra-index-url https://download.
 
 # Install all other dependencies from requirements.txt
 COPY requirements.txt .
-RUN pip3 install --no-cache-dir -r requirements.txt
+RUN pip3 install --no-cache-dir -v -r requirements.txt || (echo "Pip install failed. Check the error above." && exit 1)
 
 # Set working directory
 WORKDIR /app
