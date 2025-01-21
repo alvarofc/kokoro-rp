@@ -7,9 +7,9 @@ from loguru import logger
 from typing import Union, List
 
 from .schemas import OpenAISpeechRequest
-from .services.audio import AudioService
-from .services.tts_model import TTSModel
-from .services.tts_service import TTSService
+from api.src.services.audio import AudioService
+from api.src.services.tts_model import TTSModel
+from api.src.services.tts_service import TTSService
 
 # Initialize services
 tts_service = None
